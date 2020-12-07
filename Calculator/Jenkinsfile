@@ -6,7 +6,7 @@ pipeline {
             steps {
                
 			   bat "git clone https://github.com/anish1922/Calcultor.git"
-			   bat "dotnet build **\\Users\\Lenovo\\.jenkins\\workspace\\Calculator\\Calcultor\\Calcultor"
+			   bat "dotnet build c:\\Users\\Lenovo\\.jenkins\\workspace\\Calculator\\Calcultor\\Calcultor\\"
             }
         }
         stage('Test') {
