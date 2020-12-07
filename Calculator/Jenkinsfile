@@ -6,7 +6,7 @@ pipeline {
             steps {
                bat "rmdir /s /q Calculator"
 			   bat "git clone https://github.com/anish1922/Calcultor.git"
-			   bat "dotnet build C:\Users\Lenovo\.jenkins\workspace\Calculator\Calcultor\Calculator"
+			   bat "dotnet build C:\\Users\Lenovo\\.jenkins\\workspace\\Calculator\\Calcultor\\Calculator"
             }
         }
         stage('Test') {
