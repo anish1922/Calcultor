@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+               bat "rmdir /s /q Calculator"
+			   bat "git clone https://github.com/anish1922/Calcultor.git"
+			   bat "dotnet build Calcultor\Calculator"
             }
         }
         stage('Test') {
