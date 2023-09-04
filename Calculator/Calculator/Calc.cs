@@ -17,8 +17,19 @@ namespace Calculator
             return x - y;
 
         }
+        public int Subtract1(int x, int y)
+        {
+
+            return x - y;
+
+        }
 
         public int Mul(int x, int y)
+        {
+            return x * y;
+        }
+
+        public int Mul2(int x, int y)
         {
             return x * y;
         }
