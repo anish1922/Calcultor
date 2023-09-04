@@ -29,7 +29,7 @@ namespace Calculator
 
         public float div(float a,float b)
         {
-            return x / y;
+            return a / b;
         }
     }
 }
