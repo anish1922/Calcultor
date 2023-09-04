@@ -28,8 +28,11 @@ namespace Calculator
         {
             return x * y;
         }
+        public int Mul2(int x, int y)
+        {
+            return x * y;
+        }
 
-      
         public int Div(int x, int y)
         {
             return x / y;
@@ -38,6 +41,11 @@ namespace Calculator
         public float div(float a,float b)
         {
             return a / b;
+        }
+
+        public int Mul5(int x, int y)
+        {
+            return x * y;
         }
     }
 }
