@@ -29,10 +29,7 @@ namespace Calculator
             return x * y;
         }
 
-        public int Mul2(int x, int y)
-        {
-            return x * y;
-        }
+      
         public int Div(int x, int y)
         {
             return x / y;
