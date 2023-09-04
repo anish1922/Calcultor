@@ -26,5 +26,10 @@ namespace Calculator
         {
             return x / y;
         }
+
+        public float div(float a,float b)
+        {
+            return a / b;
+        }
     }
 }
